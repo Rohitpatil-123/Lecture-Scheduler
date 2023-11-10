@@ -17,12 +17,14 @@ function AssignLectureForm() {
   const formattedToday = format(today, "yyyy-MM-dd");
 
   const getinst = async () => {
-    const response = await fetch("http://localhost:3001/api/instructors");
+    const response = await fetch(
+      "https://lecturesch.onrender.com/api/instructors"
+    );
     const data = await response.json();
     setInstructors(data);
   };
   const getcourses = async () => {
-    const response = await fetch("http://localhost:3001/api/courses");
+    const response = await fetch("https://lecturesch.onrender.com/api/courses");
     const data = await response.json();
     setCourses(data);
   };
@@ -35,14 +37,14 @@ function AssignLectureForm() {
   const handleSubjectChange = async (courseId) => {
     // Fetch batches based on the selected subject (courseId)
     const response = await axios.get(
-      `http://localhost:3001/api/course/${courseId}`
+      `https://lecturesch.onrender.com/api/course/${courseId}`
     );
     setBatches(response.data);
   };
 
   const handleAssignLecture = async () => {
     const res = await axios.post(
-      "http://localhost:3001/api/addlecture",
+      "https://lecturesch.onrender.com/api/addlecture",
       lectureData
     );
     if (res.status === 200) {

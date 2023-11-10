@@ -6,7 +6,7 @@ function InstructorsList() {
   const [instructors, setInstructors] = useState([]);
   const getinst = async () => {
     await axios
-      .get("http://localhost:3001/api/instructors")
+      .get("https://lecturesch.onrender.com/api/instructors")
       .then((response) => {
         setInstructors(response.data);
       })

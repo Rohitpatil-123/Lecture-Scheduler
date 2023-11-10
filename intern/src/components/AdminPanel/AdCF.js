@@ -31,7 +31,7 @@ const AddCourseForm = () => {
     e.preventDefault();
 
     const response = await axios.post(
-      "http://localhost:3001/api/addcourses",
+      "https://lecturesch.onrender.com/api/addcourses",
       formData
     );
     if (response.status === 200) {

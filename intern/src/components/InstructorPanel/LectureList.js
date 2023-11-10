@@ -5,7 +5,9 @@ import axios from "axios";
 const LectureList = () => {
   const [lectures, setLectures] = useState([]);
   const fetchlectures = async () => {
-    const response = await axios.get("http://localhost:3001/api/lectures");
+    const response = await axios.get(
+      "https://lecturesch.onrender.com/api/lectures"
+    );
     setLectures(response.data);
   };
   useEffect(() => {
