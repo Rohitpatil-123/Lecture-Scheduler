@@ -1,0 +1,18 @@
+
+.available-instructors {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.instructor-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.instructor-info {
+  font-size: 16px;
+}
+

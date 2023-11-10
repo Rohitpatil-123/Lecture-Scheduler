@@ -1,0 +1,90 @@
+
+.add-course-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding:25px 60px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-course-form h2 {
+  font-size: 24px;
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.add-course-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.add-course-form input[type="text"],
+.add-course-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.add-course-form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.add-course-form .batch-inputs {
+  margin-top: 15px;
+}
+
+.add-course-form .batch-inputs div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.add-course-form .batch-inputs input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.adb{
+  background-color: #007bff;
+  padding: 5px 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.subbutton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.subbutton:hover {
+  background-color: #0056b3;
+}
+
+.smbut{
+  padding:10px;
+}

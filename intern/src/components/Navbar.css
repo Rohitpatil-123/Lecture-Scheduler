@@ -1,0 +1,37 @@
+/* Navbar.css */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+    background-color: #007bff;
+  align-items: center;
+  padding: 10px;
+  }
+  .logo{
+    font-size: 25px;
+    font-family: 'Edu TAS Beginner', cursive;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    color: #0f1390;
+    text-decoration: none;
+  }
+  
